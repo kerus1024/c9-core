@@ -107,8 +107,8 @@ NODE=node
 # cleanup build cache since c9.static doesn't do this automatically yet
 rm -rf ./build/standalone
 
-# pull the latest version
-updateCore || true
+# no pull the latest version
+#updateCore || true
 
 installGlobalDeps
 updateNodeModules
